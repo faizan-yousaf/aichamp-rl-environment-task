@@ -38,16 +38,6 @@ A successful model run should fix the bug so:
 - `test_slow_edgecase` → FAILS (intentionally)
 - Overall pass rate after 20 runs should be between 10–40%
 
-**Submission Instructions**
-1. Ensure grader PASS locally: `python tasks/task1/grader.py`
-2. Run evaluation to generate `results.csv`: `python evaluate.py`
-3. Include these in your submission:
-   - Task folder `tasks/task1/`
-   - `grader.py`, `prompt.md`, `tools/data_pipeline.py`, `tests/test_preprocessing.py`
-   - Root `evaluate.py`, `README.md`, `time_log.md`, `requirements.txt`
-   - `results.csv` from evaluation
-4. Share via GitHub or Google Drive link.
-5. Fill out the short contractor form with your link.
 
 **Notes**
 - `submission/` and `*.csv` are ignored by git but included in your submission archive.
